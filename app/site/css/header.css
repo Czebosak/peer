@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Raleway:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap');
+
+:root{font-family:'Roboto',sans-serif;--c-main:#40444b;--c-secondary:#31353d;color:white;}
+body{padding:0px;margin:0px;}
+
+header
+{
+    font-family: 'Poppins', "Raleway", "Roboto", sans-serif;
+    font-size: 2rem;
+    background-color: var(--c-secondary);
+    color: white;
+    padding: 0.75rem;
+}
+
+header img
+{
+    display: inline;
+    width: 9em;
+}
+
+body
+{
+    background-color: var(--c-main);
+}
+
+main
+{
+    width: 100%;
+}
+
+#headline
+{
+    font-family: 'Poppins', 'Raleway', 'Roboto', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#headline span
+{
+    font-size: 0.7em;
+}
+
+#flex-container
+{
+    display: flex;
+}
+
+.icon
+{
+    width: 1em;
+}
